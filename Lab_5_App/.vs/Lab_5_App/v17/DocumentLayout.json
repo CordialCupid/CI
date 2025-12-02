@@ -1,37 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ETSU Fall 2025\\Server Side\\Labs\\Lab_6\\Lab_5_App\\Lab_5_App\\",
+  "WorkspaceRootPath": "E:\\ETSU\\ETSU 2025 Fall\\Server_Side\\Labs\\Ci\\Lab_5_App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0390933-8F6D-4C8D-A3E8-BBED4E844ACE}|Lib_Serv_Test\\Lib_Serv_Test.csproj|d:\\etsu fall 2025\\server side\\labs\\lab_6\\lab_5_app\\lab_5_app\\lib_serv_test\\librarymanagementtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|e:\\etsu\\etsu 2025 fall\\server_side\\labs\\ci\\lab_5_app\\lab_5_app\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|solutionrelative:lab_5_app\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0390933-8F6D-4C8D-A3E8-BBED4E844ACE}|Lib_Serv_Test\\Lib_Serv_Test.csproj|e:\\etsu\\etsu 2025 fall\\server_side\\labs\\ci\\lab_5_app\\lib_serv_test\\librarymanagementtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0390933-8F6D-4C8D-A3E8-BBED4E844ACE}|Lib_Serv_Test\\Lib_Serv_Test.csproj|solutionrelative:lib_serv_test\\librarymanagementtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|d:\\etsu fall 2025\\server side\\labs\\lab_6\\lab_5_app\\lab_5_app\\lab_5_app\\services\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|e:\\etsu\\etsu 2025 fall\\server_side\\labs\\ci\\lab_5_app\\lab_5_app\\services\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|solutionrelative:lab_5_app\\services\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|d:\\etsu fall 2025\\server side\\labs\\lab_6\\lab_5_app\\lab_5_app\\lab_5_app\\services\\csvwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|e:\\etsu\\etsu 2025 fall\\server_side\\labs\\ci\\lab_5_app\\lab_5_app\\services\\csvwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|solutionrelative:lab_5_app\\services\\csvwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|d:\\etsu fall 2025\\server side\\labs\\lab_6\\lab_5_app\\lab_5_app\\lab_5_app\\components\\pages\\bookmanager.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|e:\\etsu\\etsu 2025 fall\\server_side\\labs\\ci\\lab_5_app\\lab_5_app\\components\\pages\\bookmanager.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|solutionrelative:lab_5_app\\components\\pages\\bookmanager.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|d:\\etsu fall 2025\\server side\\labs\\lab_6\\lab_5_app\\lab_5_app\\lab_5_app\\services\\icsvwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|e:\\etsu\\etsu 2025 fall\\server_side\\labs\\ci\\lab_5_app\\lab_5_app\\services\\icsvwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|solutionrelative:lab_5_app\\services\\icsvwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|d:\\etsu fall 2025\\server side\\labs\\lab_6\\lab_5_app\\lab_5_app\\lab_5_app\\components\\pages\\usermanager.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|e:\\etsu\\etsu 2025 fall\\server_side\\labs\\ci\\lab_5_app\\lab_5_app\\components\\pages\\usermanager.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|solutionrelative:lab_5_app\\components\\pages\\usermanager.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|d:\\etsu fall 2025\\server side\\labs\\lab_6\\lab_5_app\\lab_5_app\\lab_5_app\\services\\ilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|e:\\etsu\\etsu 2025 fall\\server_side\\labs\\ci\\lab_5_app\\lab_5_app\\services\\ilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|solutionrelative:lab_5_app\\services\\ilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|d:\\etsu fall 2025\\server side\\labs\\lab_6\\lab_5_app\\lab_5_app\\lab_5_app\\components\\pages\\bookmanager.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|e:\\etsu\\etsu 2025 fall\\server_side\\labs\\ci\\lab_5_app\\lab_5_app\\components\\pages\\bookmanager.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{915ACFAC-B0D6-4DB8-87C6-6B31791FABE2}|Lab_5_App\\Lab_5_App.csproj|solutionrelative:lab_5_app\\components\\pages\\bookmanager.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -42,15 +46,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "E:\\ETSU\\ETSU 2025 Fall\\Server_Side\\Labs\\Ci\\Lab_5_App\\Lab_5_App\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Lab_5_App\\Components\\Pages\\Home.razor",
+              "ToolTip": "E:\\ETSU\\ETSU 2025 Fall\\Server_Side\\Labs\\Ci\\Lab_5_App\\Lab_5_App\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Lab_5_App\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-02T03:37:42.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ICSVWriter.cs",
-              "DocumentMoniker": "D:\\ETSU Fall 2025\\Server Side\\Labs\\Lab_6\\Lab_5_App\\Lab_5_App\\Lab_5_App\\Services\\ICSVWriter.cs",
+              "DocumentMoniker": "E:\\ETSU\\ETSU 2025 Fall\\Server_Side\\Labs\\Ci\\Lab_5_App\\Lab_5_App\\Services\\ICSVWriter.cs",
               "RelativeDocumentMoniker": "Lab_5_App\\Services\\ICSVWriter.cs",
-              "ToolTip": "D:\\ETSU Fall 2025\\Server Side\\Labs\\Lab_6\\Lab_5_App\\Lab_5_App\\Lab_5_App\\Services\\ICSVWriter.cs",
+              "ToolTip": "E:\\ETSU\\ETSU 2025 Fall\\Server_Side\\Labs\\Ci\\Lab_5_App\\Lab_5_App\\Services\\ICSVWriter.cs",
               "RelativeToolTip": "Lab_5_App\\Services\\ICSVWriter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -58,11 +75,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CSVWriter.cs",
-              "DocumentMoniker": "D:\\ETSU Fall 2025\\Server Side\\Labs\\Lab_6\\Lab_5_App\\Lab_5_App\\Lab_5_App\\Services\\CSVWriter.cs",
+              "DocumentMoniker": "E:\\ETSU\\ETSU 2025 Fall\\Server_Side\\Labs\\Ci\\Lab_5_App\\Lab_5_App\\Services\\CSVWriter.cs",
               "RelativeDocumentMoniker": "Lab_5_App\\Services\\CSVWriter.cs",
-              "ToolTip": "D:\\ETSU Fall 2025\\Server Side\\Labs\\Lab_6\\Lab_5_App\\Lab_5_App\\Lab_5_App\\Services\\CSVWriter.cs",
+              "ToolTip": "E:\\ETSU\\ETSU 2025 Fall\\Server_Side\\Labs\\Ci\\Lab_5_App\\Lab_5_App\\Services\\CSVWriter.cs",
               "RelativeToolTip": "Lab_5_App\\Services\\CSVWriter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -70,11 +87,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UserManager.razor.cs",
-              "DocumentMoniker": "D:\\ETSU Fall 2025\\Server Side\\Labs\\Lab_6\\Lab_5_App\\Lab_5_App\\Lab_5_App\\Components\\Pages\\UserManager.razor.cs",
+              "DocumentMoniker": "E:\\ETSU\\ETSU 2025 Fall\\Server_Side\\Labs\\Ci\\Lab_5_App\\Lab_5_App\\Components\\Pages\\UserManager.razor.cs",
               "RelativeDocumentMoniker": "Lab_5_App\\Components\\Pages\\UserManager.razor.cs",
-              "ToolTip": "D:\\ETSU Fall 2025\\Server Side\\Labs\\Lab_6\\Lab_5_App\\Lab_5_App\\Lab_5_App\\Components\\Pages\\UserManager.razor.cs",
+              "ToolTip": "E:\\ETSU\\ETSU 2025 Fall\\Server_Side\\Labs\\Ci\\Lab_5_App\\Lab_5_App\\Components\\Pages\\UserManager.razor.cs",
               "RelativeToolTip": "Lab_5_App\\Components\\Pages\\UserManager.razor.cs",
               "ViewState": "AgIAADoAAAAAAAAAAADwvxYAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -82,11 +99,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LibraryManagementTests.cs",
-              "DocumentMoniker": "D:\\ETSU Fall 2025\\Server Side\\Labs\\Lab_6\\Lab_5_App\\Lab_5_App\\Lib_Serv_Test\\LibraryManagementTests.cs",
+              "DocumentMoniker": "E:\\ETSU\\ETSU 2025 Fall\\Server_Side\\Labs\\Ci\\Lab_5_App\\Lib_Serv_Test\\LibraryManagementTests.cs",
               "RelativeDocumentMoniker": "Lib_Serv_Test\\LibraryManagementTests.cs",
-              "ToolTip": "D:\\ETSU Fall 2025\\Server Side\\Labs\\Lab_6\\Lab_5_App\\Lab_5_App\\Lib_Serv_Test\\LibraryManagementTests.cs",
+              "ToolTip": "E:\\ETSU\\ETSU 2025 Fall\\Server_Side\\Labs\\Ci\\Lab_5_App\\Lib_Serv_Test\\LibraryManagementTests.cs",
               "RelativeToolTip": "Lib_Serv_Test\\LibraryManagementTests.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -95,11 +112,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ILibraryService.cs",
-              "DocumentMoniker": "D:\\ETSU Fall 2025\\Server Side\\Labs\\Lab_6\\Lab_5_App\\Lab_5_App\\Lab_5_App\\Services\\ILibraryService.cs",
+              "DocumentMoniker": "E:\\ETSU\\ETSU 2025 Fall\\Server_Side\\Labs\\Ci\\Lab_5_App\\Lab_5_App\\Services\\ILibraryService.cs",
               "RelativeDocumentMoniker": "Lab_5_App\\Services\\ILibraryService.cs",
-              "ToolTip": "D:\\ETSU Fall 2025\\Server Side\\Labs\\Lab_6\\Lab_5_App\\Lab_5_App\\Lab_5_App\\Services\\ILibraryService.cs",
+              "ToolTip": "E:\\ETSU\\ETSU 2025 Fall\\Server_Side\\Labs\\Ci\\Lab_5_App\\Lab_5_App\\Services\\ILibraryService.cs",
               "RelativeToolTip": "Lab_5_App\\Services\\ILibraryService.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwA4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -107,24 +124,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LibraryService.cs",
-              "DocumentMoniker": "D:\\ETSU Fall 2025\\Server Side\\Labs\\Lab_6\\Lab_5_App\\Lab_5_App\\Lab_5_App\\Services\\LibraryService.cs",
+              "DocumentMoniker": "E:\\ETSU\\ETSU 2025 Fall\\Server_Side\\Labs\\Ci\\Lab_5_App\\Lab_5_App\\Services\\LibraryService.cs",
               "RelativeDocumentMoniker": "Lab_5_App\\Services\\LibraryService.cs",
-              "ToolTip": "D:\\ETSU Fall 2025\\Server Side\\Labs\\Lab_6\\Lab_5_App\\Lab_5_App\\Lab_5_App\\Services\\LibraryService.cs",
+              "ToolTip": "E:\\ETSU\\ETSU 2025 Fall\\Server_Side\\Labs\\Ci\\Lab_5_App\\Lab_5_App\\Services\\LibraryService.cs",
               "RelativeToolTip": "Lab_5_App\\Services\\LibraryService.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAwwGAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T02:34:26.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T02:34:26.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BookManager.razor.cs",
-              "DocumentMoniker": "D:\\ETSU Fall 2025\\Server Side\\Labs\\Lab_6\\Lab_5_App\\Lab_5_App\\Lab_5_App\\Components\\Pages\\BookManager.razor.cs",
+              "DocumentMoniker": "E:\\ETSU\\ETSU 2025 Fall\\Server_Side\\Labs\\Ci\\Lab_5_App\\Lab_5_App\\Components\\Pages\\BookManager.razor.cs",
               "RelativeDocumentMoniker": "Lab_5_App\\Components\\Pages\\BookManager.razor.cs",
-              "ToolTip": "D:\\ETSU Fall 2025\\Server Side\\Labs\\Lab_6\\Lab_5_App\\Lab_5_App\\Lab_5_App\\Components\\Pages\\BookManager.razor.cs",
+              "ToolTip": "E:\\ETSU\\ETSU 2025 Fall\\Server_Side\\Labs\\Ci\\Lab_5_App\\Lab_5_App\\Components\\Pages\\BookManager.razor.cs",
               "RelativeToolTip": "Lab_5_App\\Components\\Pages\\BookManager.razor.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAA0wCcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -132,11 +148,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "BookManager.razor",
-              "DocumentMoniker": "D:\\ETSU Fall 2025\\Server Side\\Labs\\Lab_6\\Lab_5_App\\Lab_5_App\\Lab_5_App\\Components\\Pages\\BookManager.razor",
+              "DocumentMoniker": "E:\\ETSU\\ETSU 2025 Fall\\Server_Side\\Labs\\Ci\\Lab_5_App\\Lab_5_App\\Components\\Pages\\BookManager.razor",
               "RelativeDocumentMoniker": "Lab_5_App\\Components\\Pages\\BookManager.razor",
-              "ToolTip": "D:\\ETSU Fall 2025\\Server Side\\Labs\\Lab_6\\Lab_5_App\\Lab_5_App\\Lab_5_App\\Components\\Pages\\BookManager.razor",
+              "ToolTip": "E:\\ETSU\\ETSU 2025 Fall\\Server_Side\\Labs\\Ci\\Lab_5_App\\Lab_5_App\\Components\\Pages\\BookManager.razor",
               "RelativeToolTip": "Lab_5_App\\Components\\Pages\\BookManager.razor",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAAEgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
