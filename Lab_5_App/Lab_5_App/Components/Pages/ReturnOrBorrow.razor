@@ -1,0 +1,62 @@
+﻿@page "/returnorborrow"
+@rendermode InteractiveServer
+
+<h1>Return Or Borrow</h1>
+@if (erro != string.Empty)
+{
+        <h2 style="color:@(erro.StartsWith('S') ? "green" : "red");">@erro</h2>  
+}
+
+<div style="padding: 20px;">
+    <h3>Borrow A Book</h3>
+
+    <label for="b_user">User ID That Is Borrowing:</label>
+    <input @bind="borrow_u_id" name="b_user"/>
+
+    <label for="b_book">Book ID To Borrow:</label>
+    <input @bind="borrow_b_id" name="b_book"/> 
+
+    <button @onclick="HandleBorrowBook" >Borrow Book</button>
+</div>
+
+<div style="padding: 20px;">
+    <h3>Return A Book</h3>
+
+    <label for="r_user">User Id That Is Returning:</label>
+    <input @bind="r_u_id" name="r_user"/>
+
+    <label for="r_book">Book Id To Return:</label>
+    <input @bind="r_b_id" name="r_book"/>
+
+    <button @onclick="HandleReturnBook" >Return Book</button>
+</div>
+
+<div style="padding: 20px;">
+    <h3>View Borrowed Books</h3>
+
+    <label for="v_user">User ID To View Borrowed:</label>
+    <input @bind="v_id" name="v_user" />
+
+    <button @onclick="HandleViewBorrowed" >Search For User's Books</button>
+</div>
+
+<div style="padding: 20px;">
+    @if (viewBorrowed)
+    {
+        <table>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>ISBN</th>
+            </tr>
+            @foreach (var b in bookList)
+            {
+                <tr>
+                    <td>@b.Title</td>
+                    <td>@b.Author</td>
+                    <td>@b.ISBN</td>
+                </tr>
+            }
+        </table>       
+    }
+</div>

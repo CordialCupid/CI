@@ -1,0 +1,77 @@
+﻿@page "/bookmanager"
+@rendermode InteractiveServer
+
+<PageTitle>Book Manager</PageTitle>
+
+<h1>Book Manager</h1>
+
+@if (erro != string.Empty)
+{
+    <h2 style="color:@(erro.StartsWith('S') ? "green" : "red");">@erro</h2>   
+}
+
+<div style="padding: 20px;">
+    <h3>Add A Book</h3>
+
+    <label for="b_title"> Book Title:</label>
+    <input @bind="b_title" type="text" id="b_title" name="b_title" placeholder="Title...">
+
+    <label for="b_author"> Book Author:</label>
+    <input @bind="b_auth" type="text" id="b_author" name="b_author" placeholder="Author...">
+
+    <label for="b_isbn"> Book ISBN:</label>
+    <input @bind="b_isbn" type="text" id="b_isbn" name="b_isbn" placeholder="ISBN...">
+
+    <button @onclick="HandleAddBook">Submit Book</button>
+</div>
+
+<div style="padding: 20px;">
+    <h3>Edit A Book</h3>
+
+    <label for="b_id"> Book ID To Edit:</label>
+    <input @bind="ed_id" type="text" id="ed_id" name="ed_id" placeholder="Id...">
+
+    <label for="b_title"> Book Title:</label>
+    <input @bind="ed_title" type="text" id="ed_title" name="ed_title" placeholder="Title...">
+
+    <label for="b_author"> Book Author:</label>
+    <input @bind="ed_auth" type="text" id="ed_author" name="ed_author" placeholder="Author...">
+
+    <label for="b_isbn"> Book ISBN:</label>
+    <input @bind="ed_isbn" type="text" id="ed_isbn" name="ed_isbn" placeholder="ISBN...">
+
+    <button @onclick="HandleBookEdit" >Submit Edit</button>
+</div>
+
+<div style="padding: 20px;">
+    <h3>Delete A Book</h3>
+
+    <label for="b_id"> Book ID To Delete:</label>
+    <input @bind="del_id" type="text" id="del_id" name="del_id" placeholder="Id...">
+
+    <button @onclick="HandleBookDelete" >Delete Book</button>
+</div>
+
+
+<div style="padding: 20px;">
+    <h3>List Books</h3>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th>Available Copies</th>
+        </tr>
+        @foreach (var b in bookGroups)
+        {
+            <tr>
+                <td>@b.Key.Id</td>
+                <td>@b.Key.Title</td>
+                <td>@b.Key.Author</td>
+                <td>@b.Key.ISBN</td>
+                <td>@b.Value</td>
+            </tr>
+        }
+    </table>
+</div>

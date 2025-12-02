@@ -1,0 +1,67 @@
+﻿@page "/usermanager"
+@rendermode InteractiveServer
+
+<PageTitle>User Manager</PageTitle>
+
+<h1>User Manager</h1>
+
+@if (erro != string.Empty)
+{
+        <h2 style="color:@(erro.StartsWith('S') ? "green" : "red");">@erro</h2>   
+}
+
+<div style="padding: 20px;">
+    <h3>Add A User</h3>
+
+    <label for="u_name"> User Name</label>
+    <input @bind="u_name" type="text" id="u_name" name="u_name" placeholder="Name...">
+
+    <label for="u_email"> User Email:</label>
+    <input @bind="u_email" type="text" id="u_email" name="u_email" placeholder="Email...">
+
+    <button @onclick="HandleAddUser">Submit User</button>
+</div>
+
+<div style="padding: 20px;">
+    <h3>Edit A User</h3>
+
+    <label for="b_id"> User ID To Edit:</label>
+    <input @bind="ed_id" type="text" id="ed_id" name="ed_id" placeholder="Id...">
+
+    <label for="b_title"> Book Title:</label>
+    <input @bind="ed_name" type="text" id="ed_name" name="ed_name" placeholder="Name...">
+
+    <label for="u_email"> User Email:</label>
+    <input @bind="ed_email" type="text" id="ed_email" name="ed_email" placeholder="Email...">
+
+    <button @onclick="HandleUserEdit" >Submit Edit</button>
+</div>
+
+<div style="padding: 20px;">
+    <h3>Delete A User</h3>
+
+    <label for="b_id"> User ID To Delete:</label>
+    <input @bind="del_id" type="text" id="del_id" name="del_id" placeholder="Id...">
+
+    <button @onclick="HandleUserDelete" >Delete User</button>
+</div>
+
+<div style="padding: 20px;">
+    <h3>List Users</h3>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        @foreach (var u in LibServ.users)
+        {
+                <tr>
+                    <td>@u.Id</td>
+                    <td>@u.Name</td>
+                    <td>@u.Email</td>
+                </tr>
+        }
+    </table>
+</div>
+
